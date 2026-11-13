@@ -1,7 +1,7 @@
 # Socifyr
 
-Publish and schedule posts on **15 social platforms** — Instagram, LinkedIn, X, TikTok, Facebook,
-YouTube, Threads, Pinterest, Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr, Slack — from Make.
+Publish and schedule posts on **18 social platforms** — Instagram, LinkedIn, X, TikTok, Facebook,
+YouTube, Threads, Pinterest, Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr, Slack, Dev.to, Hashnode, Tumblr — from Make.
 
 ## Connection
 

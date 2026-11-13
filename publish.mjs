@@ -144,7 +144,7 @@ function main() {
 		'create',
 		`--name=${APP_NAME}`,
 		`--label=Socifyr`,
-		`--description=Publish and schedule posts on 15 social platforms (Instagram, LinkedIn, X, TikTok, Facebook, YouTube, Threads, Pinterest, Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr, Slack) via API key.`,
+		`--description=Publish and schedule posts on 18 social platforms (Instagram, LinkedIn, X, TikTok, Facebook, YouTube, Threads, Pinterest, Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr, Slack, Dev.to, Hashnode, Tumblr) via API key.`,
 		`--theme=#5B5FE3`,
 		`--language=en`,
 		`--audience=global`,
