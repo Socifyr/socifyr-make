@@ -1,0 +1,6 @@
+{
+	"url": "/content/{{parameters.contentId}}/publish",
+	"method": "POST",
+	"type": "json",
+	"body": {}
+}

@@ -1,0 +1,43 @@
+[
+	{
+		"name": "mediaType",
+		"label": "Media type",
+		"type": "select",
+		"required": true,
+		"values": ["Photos", "Video", "Document"],
+		"defaultValue": "Photos"
+	},
+	{
+		"name": "connections",
+		"label": "Connections",
+		"type": "text",
+		"required": true,
+		"documentation": "Comma-separated connection slugs, e.g. instagram-mybrand, x-myhandle."
+	},
+	{
+		"name": "medias",
+		"label": "Media (IDs or URLs)",
+		"type": "text",
+		"required": true,
+		"documentation": "Comma-separated media library IDs or public https:// URLs. Upload files to Socifyr first (media library or POST /media), then reference them here."
+	},
+	{
+		"name": "text",
+		"label": "Caption text",
+		"type": "text",
+		"required": false
+	},
+	{
+		"name": "title",
+		"label": "Title",
+		"type": "text",
+		"required": false
+	},
+	{
+		"name": "scheduledAt",
+		"label": "Scheduled at (ISO 8601)",
+		"type": "text",
+		"required": false,
+		"documentation": "Leave empty to publish immediately."
+	}
+]

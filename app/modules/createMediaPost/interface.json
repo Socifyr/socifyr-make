@@ -1,0 +1,15 @@
+[
+	{ "name": "success", "label": "Success", "type": "boolean" },
+	{
+		"name": "data",
+		"label": "Result",
+		"type": "collection",
+		"nested": [
+			{ "name": "requestId", "label": "Request ID", "type": "text" },
+			{ "name": "uploadId", "label": "Upload ID", "type": "text" },
+			{ "name": "draftId", "label": "Draft ID", "type": "text" },
+			{ "name": "status", "label": "Status", "type": "text" },
+			{ "name": "message", "label": "Message", "type": "text" }
+		]
+	}
+]

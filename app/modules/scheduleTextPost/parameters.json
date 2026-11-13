@@ -1,0 +1,35 @@
+[
+	{
+		"name": "connections",
+		"label": "Connections",
+		"type": "text",
+		"required": true,
+		"documentation": "Comma-separated connection slugs, e.g. instagram-mybrand, x-myhandle."
+	},
+	{
+		"name": "text",
+		"label": "Post text",
+		"type": "text",
+		"required": true
+	},
+	{
+		"name": "scheduledAt",
+		"label": "Scheduled at (ISO 8601)",
+		"type": "text",
+		"required": true,
+		"documentation": "Future datetime, e.g. 2026-12-25T15:00:00Z or use Make's formatUNIX()/toZulu() functions."
+	},
+	{
+		"name": "timezone",
+		"label": "Timezone (optional)",
+		"type": "text",
+		"required": false,
+		"documentation": "IANA timezone applied when scheduledAt has no offset, e.g. Asia/Kathmandu."
+	},
+	{
+		"name": "title",
+		"label": "Title",
+		"type": "text",
+		"required": false
+	}
+]

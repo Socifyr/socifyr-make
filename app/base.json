@@ -1,0 +1,9 @@
+{
+	"baseUrl": "{{connection.baseUrl}}",
+	"headers": {
+		"Accept": "application/json",
+		"Authorization": "Bearer {{connection.apiKey}}"
+	},
+	"response": { "type": "json" },
+	"log": { "sanitize": ["request.headers.authorization"] }
+}

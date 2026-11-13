@@ -1,0 +1,30 @@
+[
+	{ "name": "success", "label": "Success", "type": "boolean" },
+	{
+		"name": "data",
+		"label": "Posts",
+		"type": "array",
+		"nested": [
+			{ "name": "id", "label": "ID", "type": "text" },
+			{ "name": "type", "label": "Type", "type": "text" },
+			{ "name": "contentFormat", "label": "Content Format", "type": "text" },
+			{ "name": "status", "label": "Status", "type": "text" },
+			{ "name": "title", "label": "Title", "type": "text" },
+			{ "name": "text", "label": "Text", "type": "text" },
+			{ "name": "requestId", "label": "Request ID", "type": "text" },
+			{ "name": "scheduledAt", "label": "Scheduled At", "type": "text" },
+			{ "name": "createdAt", "label": "Created At", "type": "text" }
+		]
+	},
+	{
+		"name": "meta",
+		"label": "Pagination",
+		"type": "collection",
+		"nested": [
+			{ "name": "total", "label": "Total", "type": "integer" },
+			{ "name": "page", "label": "Page", "type": "integer" },
+			{ "name": "limit", "label": "Limit", "type": "integer" },
+			{ "name": "totalPages", "label": "Total Pages", "type": "integer" }
+		]
+	}
+]

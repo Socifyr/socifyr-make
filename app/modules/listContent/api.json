@@ -1,0 +1,4 @@
+{
+	"url": "/content?page={{parameters.page}}&limit={{parameters.limit}}{{if(immediate(parameters.status), \"&status=\" + parameters.status, \"\")}}{{if(immediate(parameters.type), \"&type=\" + parameters.type, \"\")}}{{if(immediate(parameters.platform), \"&platform=\" + parameters.platform, \"\")}}",
+	"method": "GET"
+}

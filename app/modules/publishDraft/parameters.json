@@ -1,0 +1,9 @@
+[
+	{
+		"name": "contentId",
+		"label": "Content ID",
+		"type": "text",
+		"required": true,
+		"documentation": "The uploadId or draftId returned by a Socifyr module."
+	}
+]

@@ -1,0 +1,12 @@
+{
+	"url": "/content/text",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"connections": "{{split(parameters.connections, \",\")}}",
+		"text": "{{parameters.text}}",
+		"scheduledAt": "{{parameters.scheduledAt}}",
+		"timezone": "{{if(immediate(parameters.timezone), parameters.timezone, null)}}",
+		"title": "{{if(immediate(parameters.title), parameters.title, null)}}"
+	}
+}

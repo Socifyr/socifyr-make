@@ -1,0 +1,10 @@
+{
+	"url": "/content/text",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"connections": "{{split(parameters.connections, \",\")}}",
+		"text": "{{parameters.text}}",
+		"title": "{{if(immediate(parameters.title), parameters.title, null)}}"
+	}
+}

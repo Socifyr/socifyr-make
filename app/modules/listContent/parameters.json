@@ -1,0 +1,37 @@
+[
+	{
+		"name": "status",
+		"label": "Status filter",
+		"type": "text",
+		"required": false,
+		"documentation": "One of: draft, queued, pending, processing, publishing, completed, partial_failure, failed. Leave empty for all."
+	},
+	{
+		"name": "type",
+		"label": "Type filter",
+		"type": "text",
+		"required": false,
+		"documentation": "video | photo | text | document. Leave empty for all."
+	},
+	{
+		"name": "platform",
+		"label": "Platform filter",
+		"type": "text",
+		"required": false,
+		"documentation": "Platform name (instagram, x, linkedin, ...). Leave empty for all."
+	},
+	{
+		"name": "page",
+		"label": "Page",
+		"type": "number",
+		"required": true,
+		"defaultValue": 1
+	},
+	{
+		"name": "limit",
+		"label": "Items per page",
+		"type": "number",
+		"required": true,
+		"defaultValue": 20
+	}
+]

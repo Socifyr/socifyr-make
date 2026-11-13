@@ -1,0 +1,12 @@
+{
+	"url": "{{if(immediate(parameters.mediaType) = \"Video\", \"/content/video\", if(immediate(parameters.mediaType) = \"Document\", \"/content/document\", \"/content/photos\"))}}",
+	"method": "POST",
+	"type": "json",
+	"body": {
+		"connections": "{{split(parameters.connections, \",\")}}",
+		"medias": "{{split(parameters.medias, \",\")}}",
+		"text": "{{if(immediate(parameters.text), parameters.text, null)}}",
+		"title": "{{if(immediate(parameters.title), parameters.title, null)}}",
+		"scheduledAt": "{{if(immediate(parameters.scheduledAt), parameters.scheduledAt, null)}}"
+	}
+}

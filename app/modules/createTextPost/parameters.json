@@ -1,0 +1,22 @@
+[
+	{
+		"name": "connections",
+		"label": "Connections",
+		"type": "text",
+		"required": true,
+		"documentation": "Comma-separated connection slugs, e.g. instagram-mybrand, x-myhandle, telegram-mychannel. Slugs appear in Socifyr → Connected Accounts."
+	},
+	{
+		"name": "text",
+		"label": "Post text",
+		"type": "text",
+		"required": true
+	},
+	{
+		"name": "title",
+		"label": "Title",
+		"type": "text",
+		"required": false,
+		"documentation": "Optional caption/title fallback (max 500 characters)."
+	}
+]

@@ -1,0 +1,11 @@
+[
+	{ "name": "success", "label": "Success", "type": "boolean" },
+	{
+		"name": "data",
+		"label": "Result",
+		"type": "collection",
+		"nested": [
+			{ "name": "uploadId", "label": "Deleted ID", "type": "text" }
+		]
+	}
+]
