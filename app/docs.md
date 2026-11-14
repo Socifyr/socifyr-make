@@ -5,10 +5,10 @@ YouTube, Threads, Pinterest, Reddit, Bluesky, Telegram, Discord, Mastodon, Nostr
 
 ## Connection
 
-- **Socifyr API key (`sk_...`)** — create one in Socifyr → Dashboard → API Keys. Use a dedicated
+- **Socifyr API key (`sk_...`)** — create one in Socifyr → Dashboard → API & Integrations. Use a dedicated
   key for Make and give it **agent guardrails** (daily post limit, X spend cap, require-approval)
-  so an runaway scenario can't spam your accounts. The key belongs to one workspace, so posts go
-  to the workspace you created it in; no workspace ID is needed.
+  so an runaway scenario can't spam your accounts. Posts go to the workspace you
+  created the key in.
 
 ## Modules
 

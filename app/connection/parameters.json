@@ -4,7 +4,7 @@
 		"label": "Socifyr API key (sk_...)",
 		"type": "password",
 		"required": true,
-		"documentation": "Create in Socifyr → Dashboard → API Keys. Keys can carry agent guardrails (daily post limit, X spend cap, require-approval) that automatically protect this connection."
+		"documentation": "Create in Socifyr → Dashboard → API & Integrations. Keys can carry agent guardrails (daily post limit, X spend cap, require-approval) that automatically protect this connection."
 	},
 	{
 		"name": "baseUrl",
